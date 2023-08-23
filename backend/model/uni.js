@@ -16,8 +16,10 @@ const locationFacultySchema = new mongoose.Schema({
 
 const universitySchema = new mongoose.Schema({
   name: { type: String, required: true },
+  image: String, 
   locationFaculties: [locationFacultySchema], // Different faculties for different locations
   establishedYear: Number,
+  webiste:String,
 });
 
 module.exports = mongoose.model('University', universitySchema);
