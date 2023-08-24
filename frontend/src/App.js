@@ -7,10 +7,9 @@ function App() {
   return (
     <div className="App">
      <Routes>
+     <Route path="/" exact element={ <GetAllUni/>}/>
+<Route path="/:id" element={ <SingleUniversity/>}/>
 
-<div>
-  hello
-  </div>
 </Routes>
     </div>
   );
