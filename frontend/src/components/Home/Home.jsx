@@ -31,10 +31,10 @@ const Home = () => {
   }, []);
 
   return (
-    <header>
+    <header className="home">
       <div className="container">
-        <img className="myslides" src="images/University1.jpg" alt="uni" />
-        <div className="l-intro">
+        <img className="imgage" src="images/University1.jpg" alt="uni" />
+        <div className="lintro">
           <p>The Artisans Of Scholarly Excellence</p>
           <h6>"Nurturing minds, shaping futures."</h6>
           <div className="quotes">

@@ -21,9 +21,8 @@ function Navbar() {
           <img src="images/drop.png"  alt="kl"  className="menu-toggle-button" onClick={toggleMenu}/>
         <ul className={`navbar-list ${menuVisible ? "show" : ""}`}>
           <li className="ln"><Link className="an" to="/">Home</Link></li>
-          <li className="ln"><Link className="an" to="/about">About</Link></li>
           <li className="ln"><Link className="an" to="/universities">Universities</Link></li>
-          <li className="ln"> <Link className="an" to="/contact">Contact</Link></li>
+          <li className="ln"><Link className="an" to="/about">About</Link></li>
         </ul>
       </nav>
     </>
