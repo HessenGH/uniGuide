@@ -1,0 +1,23 @@
+
+.App {
+    text-align: center;
+    background-color: palegoldenrod;
+  }
+  
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .image-container {
+    padding: 100px;
+    text-align: center;
+  }
+  
+  img {
+    border-radius: 50%;
+  }
+
+  

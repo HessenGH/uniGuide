@@ -1,0 +1,60 @@
+/* Default styling for the navbar */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+    padding: 10px 70px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    color: #a7a7a7;
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+  }
+  
+  .menu-toggle-button {
+    display: none; /* Hide button by default */
+  }
+
+  .an{
+    color: white;
+  }
+  
+  /* Styling for the navbar list */
+  .navbar-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar-list li {
+    margin-right: 20px;
+  }
+  
+  /* Media query for displaying button on smaller screens */
+  @media (max-width: 768px) {
+    .menu-toggle-button {
+      display: block; 
+      width: 30px;
+      height:30px;
+      background-color: white;
+      /* Show button on smaller screens */
+    }
+  
+    .navbar-list {
+      display: none; /* Hide the list by default on smaller screens */
+    }
+  
+    .navbar-list.show {
+      display: flex; /* Show the list when menu is toggled */
+      flex-direction: column;
+      position: absolute;
+      top: 70px; /* Adjust as needed */
+      left: 0;
+      background-color: rgb(0, 0, 0);
+      z-index: 1;
+      width: 100%;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    }
+  }
+  

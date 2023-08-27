@@ -53,11 +53,12 @@
   
   .faculty-name-s {
     font-size: 20px;
-    color: #007bff;
+    color: #4d79a8;
     cursor: pointer;
     margin: 0;
     padding: 20px;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid rgb(220, 217, 217);
+    
   }
   .major-list-s {
     margin-top: 15px;
