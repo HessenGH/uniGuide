@@ -9,6 +9,7 @@ import Image from './components/Images/Images';
 import About from './components/About/About';
 import GetAllUni from './components/GetAllUni/GetAllUni';
 import SingleUniversity from './components/SingleUni/SingleUniversity';
+import TermsAndServices from './components/TermsAndServices/TermsAndServices';
 
 function App() {
   return (
@@ -20,6 +21,8 @@ function App() {
 <Route path="/:id" element={ <SingleUniversity/>}/>
 <Route path="/about" element={ <About/>}/>
 <Route path="/images" element={ <Image/>}/>
+<Route path="/terms" element={ <TermsAndServices/>}/>
+
 
 </Routes>
 <Footer/>

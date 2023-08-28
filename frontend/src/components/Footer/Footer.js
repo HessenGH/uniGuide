@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import './Footer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSlack, faFacebook, faInstagram, faDiscord } from '@fortawesome/free-brands-svg-icons';
+import { Link } from 'react-router-dom';
 
 
 const Footer = () => {
@@ -69,7 +70,7 @@ const Footer = () => {
      <a className="a" href="#cookies-policy">Cookies Policy</a>
     </li>
     <li className="l">
-    <a className="a" href="#terms-of-services">Terms Of Service</a>
+    <Link className="a"to="terms">Terms Of Service</Link>
     </li>
     <li className="l">
     <a className="a" href="#support">Support</a>
