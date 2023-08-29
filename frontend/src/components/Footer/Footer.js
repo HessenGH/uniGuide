@@ -70,10 +70,10 @@ const Footer = () => {
      <a className="a" href="#cookies-policy">Cookies Policy</a>
     </li>
     <li className="l">
-    <Link className="a"to="terms">Terms Of Service</Link>
+    <Link className="a"to="/terms">Terms Of Service</Link>
     </li>
     <li className="l">
-    <a className="a" href="#support">Support</a>
+    <Link className="a" to="/support">Support</Link>
     </li>
   </ul>
 </div>

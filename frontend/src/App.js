@@ -10,6 +10,7 @@ import About from './components/About/About';
 import GetAllUni from './components/GetAllUni/GetAllUni';
 import SingleUniversity from './components/SingleUni/SingleUniversity';
 import TermsAndServices from './components/TermsAndServices/TermsAndServices';
+import SupportComponent from './components/Support/Support';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
 <Route path="/about" element={ <About/>}/>
 <Route path="/images" element={ <Image/>}/>
 <Route path="/terms" element={ <TermsAndServices/>}/>
+<Route path="/support" element={ <SupportComponent/>}/>
 
 
 </Routes>
