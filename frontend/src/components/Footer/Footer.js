@@ -95,7 +95,6 @@ const Footer = () => {
 
   <a href="">Home</a>
   <a href="">About</a>
-  <a href="">Contact</a>
   <a href="">Universities</a>
   <a href="">Social</a>
 
