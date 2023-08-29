@@ -156,3 +156,24 @@
     }
   
     }
+    @media (max-width: 400px) {
+      .lintro {
+        width: 250px;
+        position: absolute;
+        left: 40px;
+        top: 55px;
+        color: #2c2c2c;
+        font-size: 17px;
+        height: 250px; 
+        border-radius: 12px;
+      }
+      #quoteGeneration{
+        font-size: 19px;
+      }
+        .imgage {
+        width: 100vw;
+        height: 450px;
+        display: block;
+      }
+    
+      }
